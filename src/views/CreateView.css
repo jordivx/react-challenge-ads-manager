@@ -1,0 +1,52 @@
+.create-view-ctn {
+    display: flex;
+    flex-direction: row;
+}
+
+.create-view-ctn>div {
+    flex: 1 1 0px
+}
+
+.create-view-ctn .create-form form {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2em;
+}
+
+.create-view-ctn .create-form form input[type=text] {
+    width: 100%;
+    padding: 1em;
+    margin: 0.5em 0 1.5em;
+    box-sizing: border-box;
+}
+
+.create-view-ctn .create-form form input[type=file] {
+    width: 100%;
+    padding: 1em 0;
+    margin: 0.5em 0 1.5em;
+    box-sizing: border-box;
+}
+
+.create-view-ctn .create-form form button {
+    padding: 1em;
+    cursor: pointer;
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.create-view-ctn .create-form form button:hover {
+    background-color: lightskyblue;
+}
+
+
+@media (max-width: 600px) {
+    .create-view-ctn {
+        flex-direction: column-reverse;
+    }
+
+    .create-view-ctn .create-preview {
+        padding-bottom: 2em;
+    }
+}

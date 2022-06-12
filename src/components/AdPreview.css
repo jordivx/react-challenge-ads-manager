@@ -1,0 +1,80 @@
+.ad-preview {
+    min-width: 250px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.ad-preview .ad-img {
+    width: 100%;
+}
+
+.ad-preview .ad-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: lightgrey;
+    margin-top: -5px;
+}
+
+.ad-preview .ad-footer .ad-texts {
+    min-width: 0;
+    padding-right: 1em;
+}
+
+.ad-preview .ad-footer .ad-texts .ad-site {
+    font-size: 11px;
+    margin-bottom: 0.2em;
+}
+
+.ad-preview .ad-footer .ad-texts h4 {
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ad-preview .ad-footer .ad-texts .ad-description {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 13px;
+}
+
+.ad-preview .ad-footer .ad-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ad-preview .ad-footer .ad-buttons .ad-cta {
+    border-radius: 5px;
+    background-color: rgb(180,180,180);
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.ad-preview .ad-footer .ad-buttons .ad-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.ad-preview .ad-footer .ad-buttons .ad-actions .ad-link {
+    color: unset;
+    text-decoration: none;
+}
+
+.ad-preview .ad-footer .ad-buttons .ad-actions .ad-action-btn {
+    cursor: pointer;
+}
+
+.ad-preview .ad-footer .ad-buttons .ad-actions .ad-action-btn:hover {
+    color: rgb(100,100,100);
+}

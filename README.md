@@ -2,6 +2,23 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Starting instructions
+
+In order to start this project, you can do it as with any other React app with its available scripts (npm start).
+
+The app is not backed by any kind of storage, so every time you refresh the page, the state will be cleared and you will lose any progress you did.
+This would of couse be fixed by having an api and a database that stores it or by using the local storage to persist it. However, for this time, its ephemeral.
+
+In terms of responsiveness, it is usable both in desktop and mobile, but the mobile version could be optimized, it was done just to be usable.
+
+I haven't implemented tests because of time, but I had a small set of tests that I run to make sure everything was working:
+ - Create one ad for a product
+ - Create another ad for the same product
+ - Edit one of the created ads
+ - Delete one of the created ads
+
+In case I found any issue with the tests set I was fixing them.
+
 ## Available Scripts
 
 In the project directory, you can run:

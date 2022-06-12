@@ -1,0 +1,52 @@
+.update-view-ctn {
+    display: flex;
+    flex-direction: row;
+}
+
+.update-view-ctn>div {
+    flex: 1 1 0px
+}
+
+.update-view-ctn .update-form form {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2em;
+}
+
+.update-view-ctn .update-form form input[type=text] {
+    width: 100%;
+    padding: 1em;
+    margin: 0.5em 0 1.5em;
+    box-sizing: border-box;
+}
+
+.update-view-ctn .update-form form input[type=file] {
+    width: 100%;
+    padding: 1em 0;
+    margin: 0.5em 0 1.5em;
+    box-sizing: border-box;
+}
+
+
+.update-view-ctn .update-form form button {
+    padding: 1em;
+    cursor: pointer;
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.update-view-ctn .update-form form button:hover {
+    background-color: lightskyblue;
+}
+
+@media (max-width: 600px) {
+    .update-view-ctn {
+        flex-direction: column-reverse;
+    }
+
+    .update-view-ctn .update-preview {
+        padding-bottom: 2em;
+    }
+}

@@ -1,0 +1,17 @@
+.app-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1em 2em 0;
+}
+
+.app-header .home-link {
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+    margin-right: 1em;
+}
+
+.app-body {
+    padding: 1em 2em;
+}

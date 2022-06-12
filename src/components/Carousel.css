@@ -1,0 +1,30 @@
+.slick-dots {
+    bottom: 5px;
+}
+.slick-dots li button {
+    width: 25px;
+    height: 25px;
+}
+
+.slick-dots li button:before {
+    font-size: 8px;
+}
+
+.slick-dots li button:before {
+    color: lightblue;
+}
+
+.slick-dots li.slick-active button:before {
+    color: skyblue;
+}
+
+.slick-slider .slick-prev,
+.slick-slider .slick-next {
+    display: none!important;
+}
+
+.img-ctn {
+    position: relative;
+    height: 250px;
+    display: flex!important;
+}

@@ -1,0 +1,39 @@
+.read-view-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.add-ad-button {
+    margin-left: 1em;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.add-ad-button:hover {
+    background-color: rgb(234, 234, 234);
+}
+
+.product-ads-ctn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:-10px;
+}
+
+.product-ads-ctn>* {
+    margin: 10px;
+}
+
+.no-ads-message {
+    width: fit-content;
+    margin: 6em auto 0;
+    text-align: center;
+    border: 1px solid skyblue;
+    background-color: rgba(173, 216, 230, 0.5);
+    padding: 1em;
+    border-radius: 5px;
+}

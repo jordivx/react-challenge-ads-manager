@@ -1,0 +1,4 @@
+.products-ctn {
+    display: flex;
+    flex-direction: column;
+}
